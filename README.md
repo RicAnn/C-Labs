@@ -78,8 +78,8 @@ Ogni sezione del codice è commentata per facilitare la comprensione. Si consigl
 
 ## 👨‍🎓 Autore
 
-**Riccardo Annolfi**
-- Studente presso ITS V. A. RUIZ
+**Prof. Riccardo Annolfi**
+- Docente presso ITS V. A. RUIZ
 - Corso: Informatica III Anno Sezione C
 
 ## 📄 Licenza
