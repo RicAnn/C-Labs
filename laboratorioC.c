@@ -26,6 +26,40 @@ e del test Linguaggio C, https://www.mheducation.it/linguaggio-c-5-ed-9788838668
 
 #define MAX_ELE  1000 /* 18: massimo numero di elementi */
 
+// Funzione per mostrare l'intestazione dell'esercizio selezionato
+void mostraIntestazione(int numeroEsercizio) {
+    printf("\n=== ESERCIZIO %d ===\n", numeroEsercizio);
+    
+    switch(numeroEsercizio) {
+        case 1:  printf("Descrizione: Stampa alfabeto\n"); break;
+        case 2:  printf("Descrizione: Stampa alfabeto al contrario\n"); break;
+        case 3:  printf("Descrizione: Calcolo dei giorni fino all'inizio del mese inserito\n"); break;
+        case 4:  printf("Descrizione: Stampa serie di Fibonacci, indice pari e indice dispari\n"); break;
+        case 5:  printf("Descrizione: Bubble sort - Ordinamento crescente di un vettore di interi di 5 numeri\n"); break;
+        case 6:  printf("Descrizione: Bubble sort - Ordinamento decrescente di un vettore di decimali di 10 numeri\n"); break;
+        case 7:  printf("Descrizione: Inserimento di 4 stringhe e stampa nell'ordine inverso\n"); break;
+        case 8:  printf("Descrizione: Stampa tabella ASCII (0-127)\n"); break;
+        case 9:  printf("Descrizione: Stampa tabella ASCII estesa (0-255)\n"); break;
+        case 10: printf("Descrizione: Composizione indirizzo IP\n"); break;
+        case 11: printf("Descrizione: Stampa dimensioni di vari tipi di dati interi tramite costanti di limits.h\n"); break;
+        case 12: printf("Descrizione: Stampa lo spazio di archiviazione occupato da un tipo float e i suoi valori di intervallo tramite float.h\n"); break;
+        case 13: printf("Descrizione: Stampa bytes utilizzati per ogni tipo di dato tramite operatore sizeof\n"); break;
+        case 14: printf("Descrizione: Stampa bytes utilizzati per ogni tipo di dato e relativa variabile tramite operatore sizeof\n"); break;
+        case 15: printf("Descrizione: Copia vettore di float tramite puntatori\n"); break;
+        case 16: printf("Descrizione: Copia vettore di float tramite puntatori, partendo dalla meta' e procedendo verso gli estremi\n"); break;
+        case 17: printf("Descrizione: Inserimento vettori e calcolo medie aritmetiche\n"); break;
+        case 18: printf("Descrizione: Ricerca sequenziale di un valore del vettore\n"); break;
+        case 19: printf("Descrizione: Fusione di 2 vettori di caratteri ordinati\n"); break;
+        case 20: printf("Descrizione: Visualizzazione di differenti rappresentazioni dei caratteri di una stringa\n"); break;
+        case 21: printf("Descrizione: Copia di una stringa su un'altra\n"); break;
+        case 22: printf("Descrizione: Concatenazione di due stringhe (con scanf --> senza spazi)\n"); break;
+        case 23: printf("Descrizione: Concatenazione di due stringhe (con fgets/fflush (stdin) --> con spazi)\n"); break;
+        case 24: printf("Descrizione: Concatenazione di due stringhe (con getchar() --> con spazi)\n"); break;
+        default: printf("Descrizione: Esercizio non trovato\n"); break;
+    }
+    printf("========================\n\n");
+}
+
 int main(void) 
 {
 	//  TO DO : 1 CONTROLLO SCELTA
@@ -82,6 +116,9 @@ int main(void)
 			
 			case 1:
 				
+				// Mostra intestazione esercizio
+				mostraIntestazione(1);
+				
 		/*
 		
 		Objectives
@@ -124,6 +161,9 @@ int main(void)
 			
 			case 2:
 				
+				// Mostra intestazione esercizio
+				mostraIntestazione(2);
+				
 		/*
 		
 		Objectives
@@ -164,6 +204,9 @@ int main(void)
 			}  // end case 2
 			
 			case 3:
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(3);
 			
 			/*
 			
@@ -237,6 +280,9 @@ int main(void)
 			
 			case 4:
 				
+				// Mostra intestazione esercizio
+				mostraIntestazione(4);
+				
 			/*
 			
 			Objectives
@@ -297,6 +343,8 @@ int main(void)
 			} // end case 4
 			case 5:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(5);
 					
 				/*
 				
@@ -336,6 +384,8 @@ int main(void)
 			}// end case 5		
 			case 6:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(6);
 					
 				/*
 				
@@ -400,6 +450,8 @@ int main(void)
 
 			case 7:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(7);
 					
 				/*
 				Objectives
@@ -445,6 +497,8 @@ int main(void)
 						
 			case 8:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(8);
 					
 				/*
 			
@@ -462,6 +516,8 @@ int main(void)
 											
 			case 9:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(9);
 					
 				/*
 			
@@ -479,6 +535,8 @@ int main(void)
 											
 			case 10:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(10);
 					
 				/*
 			
@@ -521,6 +579,8 @@ int main(void)
 											
 			case 11:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(11);
 					
 				/*
 			
@@ -552,6 +612,8 @@ int main(void)
 											
 			case 12:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(12);
 					
 				/*
 			
@@ -576,6 +638,8 @@ int main(void)
 														
 			case 13:
 			{
+				// Mostra intestazione esercizio
+				mostraIntestazione(13);
 					
 				/*
 				Utilizzo dell'operatore unario sizseof, per determinare quanti bytes sono utilizzati
@@ -600,6 +664,9 @@ int main(void)
 							
 			case 14:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(14);
 			
 			/*
 			
@@ -655,6 +722,9 @@ int main(void)
 			case 15:
 			{
 			
+				// Mostra intestazione esercizio
+				mostraIntestazione(15);
+			
 			/*
 			
 			Copia vettore di float tramite puntatori
@@ -686,6 +756,9 @@ int main(void)
 							
 			case 16:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(16);
 			
 			/*
 			
@@ -725,6 +798,9 @@ int main(void)
 							
 			case 17:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(17);
 			
 			/*
 			
@@ -784,6 +860,9 @@ int main(void)
 			case 18:
 			{
 			
+				// Mostra intestazione esercizio
+				mostraIntestazione(18);
+			
 			/*
 			
 			Ricerca completa: ricerca sequenziale di un valore del vettore.
@@ -832,6 +911,9 @@ int main(void)
 			
 			case 19:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(19);
 			
 			/*
 			
@@ -934,6 +1016,9 @@ int main(void)
 			case 20:
 			{
 			
+				// Mostra intestazione esercizio
+				mostraIntestazione(20);
+			
 			/*
 			
 			Visualizzazione di differenti rappresentazioni dei caratteri di una stringa
@@ -956,6 +1041,9 @@ int main(void)
 
 			case 21:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(21);
 			
 			/*
 			
@@ -980,6 +1068,9 @@ int main(void)
 			
 			case 22:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(22);
 			
 			/*
 			
@@ -1017,6 +1108,9 @@ int main(void)
 			
 			case 23:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(23);
 			
 			/*
 			
@@ -1057,6 +1151,9 @@ int main(void)
 			
 			case 24:
 			{
+			
+				// Mostra intestazione esercizio
+				mostraIntestazione(24);
 			
 			/*
 			
