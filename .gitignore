@@ -1,0 +1,15 @@
+# File eseguibili compilati
+*.exe
+*.out
+*.o
+*.obj
+
+# File temporanei del sistema
+.DS_Store
+Thumbs.db
+
+# File temporanei di VS Code
+.vscode/launch.json
+.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/c_cpp_properties.json

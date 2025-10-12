@@ -1,0 +1,12 @@
+{
+    // Code Runner - Esegui nel terminale per programmi interattivi
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.saveFileBeforeRun": true,
+    
+    // Configurazione per C
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }
+}
