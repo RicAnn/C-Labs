@@ -7,7 +7,7 @@
 
 ## 📋 Descrizione
 
-Questo repository contiene una collezione completa di esercizi e programmi didattici per l'apprendimento delle basi della programmazione nel linguaggio C. Il materiale è stato sviluppato come parte del percorso formativo presso l'**ITS V. A. RUIZ** per il corso di **Informatica III Anno Sezione C**.
+Questo repository contiene una collezione completa di esercizi e programmi didattici per l'apprendimento delle basi della programmazione nel linguaggio C. Il materiale è stato sviluppato come parte del percorso formativo presso l'**ITC V. A. RUIZ - Roma** per il corso di **Informatica III Anno Sezione C**.
 
 ## 🎯 Obiettivi
 
