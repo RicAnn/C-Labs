@@ -5,8 +5,8 @@
     "code-runner.preserveFocus": false,
     "code-runner.saveFileBeforeRun": true,
     
-    // Configurazione per C
+    // Configurazione per C - PowerShell syntax
     "code-runner.executorMap": {
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+        "c": "cd $dir; if ($?) { gcc $fileName -o $fileNameWithoutExt }; if ($?) { .$fileNameWithoutExt }"
     }
 }
