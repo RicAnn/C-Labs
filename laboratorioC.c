@@ -18,7 +18,7 @@ e del test Linguaggio C, https://www.mheducation.it/linguaggio-c-5-ed-9788838668
 #include <stdlib.h>
 #include <limits.h> // 11
 #include <float.h>  // 12
-
+#include <math.h>
 
 #define MAX_CONC 10 /* 17: massimo numero di concorrenti */
 #define MIN_PUN   1 /* 17: punteggio minimo per ogni prova */
